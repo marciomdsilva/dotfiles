@@ -1,2 +1,22 @@
 .dotfiles
 .config/nvim/lazy-lock.json
+.cache/
+.local/
+.bash_history
+.motd_shown
+.sudo_as_admin_successful
+.npm/
+.ssh/
+.zsh_history
+.trash/
+.pki/
+.mozilla/
+.node_modules/
+.gnupg/
+.lessshst
+.Xauthority
+python_history
+docker_history
+
+# Tmux
+.config/tmux/plugins
