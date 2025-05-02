@@ -26,7 +26,7 @@ cat ~/.ssh/id_ed25519.pub
 
 5. Click on "New SSH Key"
 
-6. Change the origin to use SSH instead of HTTPS
+6. Change the origin to use SSH instead of HTTPS (if needed)
 
 ```sh
 dotfiles remote set-url origin git@github.com:marciomdsilva/dotfiles.git
