@@ -1,22 +1,30 @@
-.dotfiles
-.config/nvim/lazy-lock.json
-.cache/
-.local/
-.bash_history
-.motd_shown
-.sudo_as_admin_successful
-.npm/
-.ssh/
-.zsh_history
-.trash/
-.pki/
-.mozilla/
-.node_modules/
-.gnupg/
-.lessshst
-.Xauthority
-python_history
-docker_history
+# Ignore everything in home
+/*
 
-# Tmux
-.config/tmux/plugins
+# Allow only files/items I want
+
+# Allow IdeaVim config
+!IdeaVim/
+!IdeaVim/.ideavimrc
+
+# Important dotfiles
+!.bashrc
+!.gitignore
+!.tmux.conf
+!README.md
+
+
+# Nvim config
+!/.config/
+!/.config/nvim/
+!/.config/nvim/**
+
+
+# Ignore Nvim lazy-lock
+/.config/nvim/lazy-lock.json
+
+# Ignore Tmux plugins
+/.config/tmux/plugins/
+
+# Ignore nextjs-nodejs config
+/.config/nextjs-nodejs/
