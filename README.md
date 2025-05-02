@@ -4,7 +4,7 @@ My dotfiles
 
 ## Programs needed
 
-- [Node.js and npm](https://github.com/nvm-sh/nvm?tab=readme-ov-file)
+- [Node.js and npm with Noode Version Manager](https://github.com/nvm-sh/nvm?tab=readme-ov-file)
 
 ## Create/Verify SSH Key
 
