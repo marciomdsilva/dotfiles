@@ -2,6 +2,10 @@
 
 My dotfiles
 
+## Programs needed
+
+- [Node.js and npm](https://github.com/nvm-sh/nvm?tab=readme-ov-file)
+
 ## Create/Verify SSH Key
 
 1. Verify if SSH exist
@@ -22,7 +26,7 @@ ssh-keygen -t ed25519 -C "your@email.com"
 cat ~/.ssh/id_ed25519.pub
 ```
 
-4. Go to GitHub → Settings → SSH and GPG keys: https://github.com/settings/keys
+4. Go to GitHub → Settings → SSH and GPG keys: <https://github.com/settings/keys>
 
 5. Click on "New SSH Key"
 
@@ -82,7 +86,9 @@ else
   echo "Alias already exist in $SHELL_RC"
 fi
 ```
+
 - If needed on the first commit to select the main branch
+
 ```sh
 dotfiles push -u origin main
 ```
