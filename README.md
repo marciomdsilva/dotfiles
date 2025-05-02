@@ -82,3 +82,7 @@ else
   echo "Alias already exist in $SHELL_RC"
 fi
 ```
+- If needed on the first commit to select the main branch
+```sh
+dotfiles push -u origin main
+```
