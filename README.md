@@ -2,6 +2,10 @@
 
 My dotfiles
 
+## Install Nerd Font
+
+<https://www.nerdfonts.com/>
+
 ## Programs needed
 
 1. [Node.js and npm with Noode Version Manager](https://github.com/nvm-sh/nvm?tab=readme-ov-file)
