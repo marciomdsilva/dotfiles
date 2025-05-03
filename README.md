@@ -6,32 +6,40 @@ My dotfiles
 
 1. [Node.js and npm with Noode Version Manager](https://github.com/nvm-sh/nvm?tab=readme-ov-file)
 
--. After curl the most recent repository
+- After curl the most recent repository of npm
 
 ```sh
 source ~/.bashrc
 nvm install --lts
 ```
 
-3.Install fd-find(fd) tool to search text on projects and is needed to use with fzf and telescope
+2.Install ripgrep(`rg`) tool to search text on projects and is needed to use with fzf and telescope
 
 ```sh
 sudo apt install ripgrep
 ```
 
-- if needed create an alias
-
-```ssh
-alias fd='fdfind'
-```
-
-2.Install ripgrep(rg) tool to search text on projects and is needed to use with fzf and telescope
+3.Install fd-find(`fd`) tool to search files and directories on projects
 
 ```sh
-sudo apt install ripgrep
+sudo apt install fd-find
 ```
 
-## Create/Verify SSH Key
+4. Install fuzzy finder(`fzf`) is a tool that make an interactive search in command line for text and files in terminal
+
+```sh
+sudo apt install fzf
+```
+
+5.Install `lazygit` a tool that is an interface(ui) for terminal for git
+
+```sh
+sudo add-apt-repository ppa:lazygit-team/release
+sudo apt update
+sudo apt install lazygit
+```
+
+## Create/Verify SSH Key to clone dotfiles repository
 
 1. Verify if SSH exist
 
